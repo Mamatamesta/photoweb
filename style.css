@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/camer.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0px 60px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+.logo h1{
+     font-size: 30px;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+.logo span{
+    color: #d13131;
+}
+.nav-bar  {
+    display: inline;
+}
+.nav-bar a{
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+.nav-bar a:first-child{
+    color: #d13131;
+}
+.nav-bar  a:hover{
+    color: #d13131;
+}
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+     padding-right: 20px;
+}
+.search-icon .fa-search {
+      font-size: 18px;
+}
+.search-icon .fa-search:hover{
+    color: #d13131;
+}
+.login-btn button{
+    font-size: 16px;
+    color: white;
+    background-color: #d13131;
+    padding: 9px 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.bottom-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.camer {
+    padding: 4px 0px;
+}
+.camer .fa-camera{
+    font-size: 30px;
+    color: white;
+}
+.heading {
+    padding: 10px 0px;
+}
+.heading h1 {
+    font-size: 30px;
+    color: white;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+}
+.two-btn input{
+    width: 69%;
+    padding: 13px 13px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.two-btn button{
+    background-color: #d13131;
+    font-size: 16px;
+    width: 25%;
+    padding: 12px 0px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+}
+@media only screen and (max-width:768px){
+    .camer .fa-camera{
+        font-size: 20px;
+    }
+    .heading h1{
+        font-size: 18px;
+    }
+    header{
+        height: 77vh;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+}
+/* ------section-one------*/
+.section-one{
+    width: 100%;
+    height: 900px;
+}
+.all-text {
+    text-align: center;
+    padding-top: 20px;
+}
+.all-text a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+    transition: 0.6s;
+}
+.all-text a:hover{
+    background-color: #d13131;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 18px;
+} 
+.all-picture {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 30px;
+    grid-gap: 20px;
+}
+.images{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+@media only screen and (max-width:768px){
+    .images{
+        width: 200px;
+        height: 200px;
+    } 
+    .section-one{
+        height: 740px;
+    }
+}
+/* ------section-two-----*/
+.section-two{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.our-info {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.our-info h1 {
+    font-size: 35px;
+}
+.our-info span {
+    color: #d13131;
+}
+.member {
+    padding-bottom: 20px;
+}
+.member p {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.female-img {
+     width: 155px;
+     height: 155px;
+     margin: auto;
+     margin-bottom: 20px;
+}
+.female-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} 
+.logn-pra{
+    line-height: 1.7em;
+}
+.logn-pra p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+}
+.sharapova {
+    margin-bottom: 20px;
+}
+.sharapova h3 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+} 
+.fac-icon{
+    width: 100px;
+    height: 100px;
+}
+.fac-icon img {
+    width: 100%;
+    height: 100%;
+}
+.inst-icon{
+    width: 100px;
+    height: 100px;
+}
+.inst-icon img {
+    width: 100%;
+    height: 100%;
+}
+.whats-icon{
+    width: 100px;
+    height: 100px;
+}
+.whats-icon img {
+    width: 100%;
+    height: 100%;
+}
+.twit-icon{
+    width: 100px;
+    height: 100px;
+}
+.twit-icon img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-images {
+    display: flex;
+    justify-content: center;
+}
+.humen-img {
+    width: 200px;
+    height: 230px;
+    padding-top: 20px;
+}
+.humen-img img {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+.humen-img img:hover{
+   transform: scale(1.3);
+}
+@media only screen and (max-width:768px){
+    .our-info h1{
+        font-size: 25px;
+    }
+}
+/* ----section-three-----*/
+.section-three {
+    width: 100%;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 30px;
+}
+.sub-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px; 
+    border: 1px solid #423737;
+    width: 90%;
+    margin: auto;
+}
+.subscribe  h1{
+     color: white;
+     font-size: 20px;
+     font-family: monospace;
+     padding: 15px 25px;
+}
+.subscribe p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+.two-button {
+    padding: 15px 25px;
+} 
+.two-button input {
+    width: 70%;
+    padding: 13px 13px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+}
+.two-button .scribe  button{
+    width: 30%;
+    padding: 13px 13px;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #d13131;
+    color: white;
+}
+.four-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+.infon {
+    padding-bottom: 10px;
+}
+.infon h1 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.nav-text {
+    line-height: 1.8em;
+}
+.nav-text p {
+    color: #857979;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} {
+    line-height: 1.8em;
+}
+.text-line p {
+    color: #857979;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.social-img {
+    padding-top: 10px;
+}
+.social-img .fa-whatsapp {
+    color : black;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px 8px;
+    background-color: white;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+.social-img .fa-instagram {
+    color : black;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px 8px;
+    background-color: white;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+.social-img .fa-telegram {
+    color : black;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px 8px;
+    background-color: white;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+.social-img .fa-twitter{
+    color : black;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px 8px;
+    background-color: white;
+    transition: 0.7s;
+}
+.social-img i:hover{
+    background-color: #d13131;
+    color: white;
+}
+.useful {
+    padding-bottom: 10px;
+}
+.useful h1 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.details {
+    padding-bottom: 10px;
+}
+.details h1 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.support {
+    padding-bottom: 10px;
+}
+.support h1 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
