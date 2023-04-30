@@ -126,6 +126,11 @@ header{
         font-size: 20px;
     }
 }
+@media only screen and (max-width:576px){
+    .nav-bar a {
+        display: none;
+    }
+}
 /* ------section-one------*/
 .section-one{
     width: 100%;
@@ -146,7 +151,7 @@ header{
     background-color: #d13131;
     color: white;
     border-radius: 5px;
-    padding: 5px 18px;
+    padding: 5px 10px;
 } 
 .all-picture {
     display: grid;
@@ -171,6 +176,15 @@ header{
     } 
     .section-one{
         height: 740px;
+    }
+}
+@media only screen and (max-width:576px){
+    .images{
+        width: 150px;
+        height: 150px;
+    }
+    .section-one{
+        height: auto;
     }
 }
 /* ------section-two-----*/
@@ -278,6 +292,49 @@ header{
 @media only screen and (max-width:768px){
     .our-info h1{
         font-size: 25px;
+    }
+    .section-two{
+        height: 765px;
+    }
+}
+@media only screen and (max-width:576px){
+    .female-img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 6px;
+    }
+    .logn-pra p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .logn-pra{
+        line-height: 1.3em;
+    }
+    .fac-icon{
+        width: 80px;
+        height: 80px;
+    }
+    .inst-icon{
+        width: 80px;
+        height: 80px;
+    }
+    .whats-icon{
+        width: 80px;
+        height: 80px;
+    }
+    .twit-icon{
+        width: 80px;
+        height: 80px;
+    }
+    .humen-img{
+        width: 80px;
+        height: 150px;
+    }
+    .section-two{
+        height: 560px !important;
+    }
+    .all-text a{
+        font-size: 16px;
     }
 }
 /* ----section-three-----*/
@@ -428,4 +485,68 @@ header{
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+}
+@media only screen and (max-width:576px){
+    .subscribe h1{
+        font-size: 15px;
+    }
+    .two-button input{
+        width: 62%;
+        font-size: 12px;
+    }
+    .two-button .scribe button{
+        width: 38%;
+        font-size: 12px;
+    }
+    .sub-flex{
+        padding-top: 2px;
+    }
+    .subscribe p{
+        padding-bottom: 12px;
+    }
+    .section-three {
+        padding-top: 14px;
+    }
+    .four-box{
+        padding-top: 22px;
+    }
+    .infon h1{
+        font-size: 18px;
+    }
+    .nav-text p{
+        font-size: 13px;
+    }
+    .useful h1{
+        font-size: 18px;
+    }
+    .details h1{
+        font-size: 18px;
+    }
+    .support h1 {
+        font-size: 18px;
+    }
+    .social-img .fa-whatsapp{
+        font-size: 12px;
+        padding: 6px 6px;
+    }
+    .social-img .fa-instagram{
+        font-size: 12px;
+        padding: 6px 6px;
+    }
+    .social-img .fa-telegram{
+        font-size: 12px;
+        padding: 6px 6px;
+    }
+    .social-img .fa-twitter{
+        font-size: 12px;
+        padding: 6px 6px;
+    }
+    .section-three{
+        height: 285px !important;
+    }
+}
+@media only screen and (max-width:768px){
+    .section-three{
+        height: 364px;
+    }
 }
