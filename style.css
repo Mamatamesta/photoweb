@@ -10,7 +10,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 500px;
 }
 .nav-flex{
     display: flex;
@@ -117,10 +117,10 @@ header{
         font-size: 20px;
     }
     .heading h1{
-        font-size: 18px;
+        font-size: 14px;
     }
     header{
-        height: 77vh;
+        height: 270px;
     }
     .logo h1{
         font-size: 20px;
@@ -130,6 +130,22 @@ header{
     .nav-bar a {
         display: none;
     }
+    .nav-flex{
+        padding: 0px 10px;
+    }
+    header{
+        height: 293px !important;
+    }
+    .two-btn input{
+        width: 100%;
+        font-size: 12px;
+    }
+    .two-btn button{
+        font-size: 12px;
+        width: 60%;
+        margin-top: 5px;
+    }
+
 }
 /* ------section-one------*/
 .section-one{
@@ -169,22 +185,47 @@ header{
     height: 100%;
     border-radius: 10px;
 }
+.images-last{
+    width: 250px;
+    height: 250px;
+    margin: auto; 
+}
+.images-last img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 @media only screen and (max-width:768px){
     .images{
         width: 200px;
         height: 200px;
     } 
-    .section-one{
-        height: 740px;
+    .images-last{
+        width: 200px;
+        height: 200px;
     }
+    .section-one{
+        height: 740px !important;
+    }
+   
+
 }
 @media only screen and (max-width:576px){
     .images{
         width: 150px;
         height: 150px;
     }
+    .images-last{
+        display: none;
+    }
     .section-one{
         height: auto;
+    }
+    .all-text a{
+        font-size: 13px;
+    }
+    .all-picture{
+        grid-template-columns: repeat(2,1fr);
     }
 }
 /* ------section-two-----*/
@@ -308,7 +349,7 @@ header{
         margin-bottom: 10px;
     }
     .logn-pra{
-        line-height: 1.3em;
+        line-height: 1.0em;
     }
     .fac-icon{
         width: 80px;
@@ -326,15 +367,11 @@ header{
         width: 80px;
         height: 80px;
     }
-    .humen-img{
-        width: 80px;
-        height: 150px;
-    }
     .section-two{
-        height: 560px !important;
+        height: 426px !important;
     }
-    .all-text a{
-        font-size: 16px;
+    .portfolio-images{
+        display: none;
     }
 }
 /* ----section-three-----*/
@@ -408,7 +445,6 @@ header{
     color: #857979;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-} {
     line-height: 1.8em;
 }
 .text-line p {
@@ -488,27 +524,34 @@ header{
 }
 @media only screen and (max-width:576px){
     .subscribe h1{
-        font-size: 15px;
+        font-size: 12px;
     }
     .two-button input{
-        width: 62%;
+        width: 108%;
+        border-radius: 5px 5px 5px 5px;
         font-size: 12px;
     }
     .two-button .scribe button{
-        width: 38%;
+        width: 108%;
         font-size: 12px;
+        margin-top: 10px;
+        border-radius: 5px 5px 5px 5px;
     }
     .sub-flex{
         padding-top: 2px;
     }
     .subscribe p{
         padding-bottom: 12px;
+        font-size: 12px;
     }
     .section-three {
         padding-top: 14px;
+        height: 605px !important;
     }
     .four-box{
         padding-top: 22px;
+        display: block;
+        text-align: center;
     }
     .infon h1{
         font-size: 18px;
@@ -524,6 +567,23 @@ header{
     }
     .support h1 {
         font-size: 18px;
+    }
+    .social-img{
+        padding-bottom: 13px;
+    }
+    .infon{
+        padding-bottom: 4px;
+    }
+    .useful{
+        padding-bottom: 4px;
+    }
+    .details{
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+    .support{
+        padding-top: 10px;
+        padding-bottom: 4px;
     }
     .social-img .fa-whatsapp{
         font-size: 12px;
@@ -541,12 +601,9 @@ header{
         font-size: 12px;
         padding: 6px 6px;
     }
-    .section-three{
-        height: 285px !important;
-    }
 }
 @media only screen and (max-width:768px){
-    .section-three{
-        height: 364px;
+     .section-three{
+        height: 340px;
     }
-}
+} 
