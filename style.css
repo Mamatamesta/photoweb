@@ -119,11 +119,14 @@ header{
     .heading h1{
         font-size: 14px;
     }
-    header{
-        height: 270px;
-    }
     .logo h1{
         font-size: 20px;
+    }
+    header{
+        height: 345px;
+    }
+    .bottom-text{
+        bottom: 160px;
     }
 }
 @media only screen and (max-width:576px){
@@ -133,9 +136,6 @@ header{
     .nav-flex{
         padding: 0px 10px;
     }
-    header{
-        height: 293px !important;
-    }
     .two-btn input{
         width: 100%;
         font-size: 12px;
@@ -144,6 +144,12 @@ header{
         font-size: 12px;
         width: 60%;
         margin-top: 5px;
+    }
+    header{
+        height: 400px !important;
+    }
+    .bottom-text{
+        bottom: 165px;
     }
 
 }
