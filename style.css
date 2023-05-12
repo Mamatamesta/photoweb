@@ -123,11 +123,9 @@ header{
         font-size: 20px;
     }
     header{
-        height: 345px;
+        height: 300px;
     }
-    .bottom-text{
-        bottom: 160px;
-    }
+   
 }
 @media only screen and (max-width:576px){
     .nav-bar a {
@@ -146,12 +144,8 @@ header{
         margin-top: 5px;
     }
     header{
-        height: 400px !important;
+        height: 325px !important;
     }
-    .bottom-text{
-        bottom: 165px;
-    }
-
 }
 /* ------section-one------*/
 .section-one{
