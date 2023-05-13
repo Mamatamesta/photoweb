@@ -123,7 +123,11 @@ header{
         font-size: 20px;
     }
     header{
-        height: 300px;
+        height: 400px;
+    }
+    .bottom-text{
+        top: 45%;
+        transform: translate(-50%, -45%);
     }
    
 }
